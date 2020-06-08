@@ -88,8 +88,9 @@ router.post('/', (req, res) => {
     product_name: req.body.product_name,
     price: req.body.price,
     stock: req.body.stock,
+    tagIds: req.body.tagIds,
+    
     include: {
-      
       model: Tag,
       attributes: [
         'id'
@@ -109,8 +110,9 @@ router.post('/', (req, res) => {
     }
   */
   //Product.create(req.body)
-  console.log(dbProductData)
+ 
   .then((dbProductData) => {
+      console.log(dbProductData);
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
       if (req.body.tagIds.length) {
         const productTagIdArr = req.body.tagIds.map((tag_id) => {
