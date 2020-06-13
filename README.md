@@ -2,7 +2,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
-  E-Commerce Back-end is a tool to allow a user the ability to query an ecommerce database.  API routes were build to access the Product, Tag and Category tables using either the browser or software such as Insomnia.  For example, a user can pull all product data, a product by prodcut ID, post new products, change information of existing products or delete a prodcut.  The same functionality is available for the Category and Tag as well.  Please note that the routes are 'products', 'catagories', and 'tags'.  
+  E-Commerce Back-end is a tool to allow a user the ability to query an ecommerce database.  API routes were built to access the Product, Tag and Category tables using either the browser or software such as Insomnia.  For example, a user can pull all product data, a product by prodcut ID, post new products, change information of existing products or delete a prodcut.  The same functionality is available for the Category and Tag as well.  Please note that the routes are 'products', 'catagories', and 'tags'.  
   
   ## Table of Contents
   * [Installation](#installation)
@@ -37,7 +37,7 @@
   ## Video Link<a name="video"></a>
   https://drive.google.com/file/d/1koDMXds3lPgZebFvGf-42DK-l2ME-liA/view
   
-  ## Employee Tracker Example<a name="example"></a>
-  # Command Line Interface
+  ## E-Commerce back-end example<a name="example"></a>
+  # Posting data using Insomnia
   ![image](https://user-images.githubusercontent.com/61851131/84577410-b605d780-ad70-11ea-9242-b3a9ee248664.png)
 
