@@ -2,7 +2,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
-  Employee Tracker is a command line application that allows the user to query company specific inforamtion concerning the organizaitonal structure.  Specifically, the user can view departments, employees and roles.  In addition, the user can add or delete departments, employees and roles.  Finally, the application includes functionality to modify roles and view department budgets based on salary.   
+  E-Commerce Back-end is a tool to allow a user the ability to query an ecommerce database.  API routes were build to access the Product, Tag and Category tables using either the browser or software such as Insomnia.  For example, a user can pull all product data, a product by prodcut ID, post new products, change information of existing products or delete a prodcut.  The same functionality is available for the Category and Tag as well.  Please note that the routes are 'products', 'catagories', and 'tags'.  
   
   ## Table of Contents
   * [Installation](#installation)
